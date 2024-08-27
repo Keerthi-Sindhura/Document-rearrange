@@ -76,7 +76,7 @@ const App: React.FC = () => {
       {overlayImage && (
         <div className="overlay" onClick={closeOverlay}>
           <img
-            src={`./${overlayImage}.png`}
+            src={`/${overlayImage}.png`}
             alt="Overlay"
           />
         </div>
